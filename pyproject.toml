@@ -21,6 +21,9 @@ autopep8 = "^1.4"
 YAPF = "^0.29.0"
 pudb = "^2019.2"
 pyls-black = "^0.4.4"
+sphinx = "^2.2"
+sphinx_rtd_theme = "^0.4.3"
+sphinx-click = "^2.3"
 
 [tool.poetry.plugins."console_scripts"]
 "sublime-debugger" = "sublime_debugger.console:cli"

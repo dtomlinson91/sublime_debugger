@@ -18,7 +18,8 @@ from sublime_debugger import CONFIG as config
 )
 def cli(update) -> None:
     """utility to change the sublime debugger virtualenv path for python to
-    the current $VIRTUAL_ENV environment variable in the sublime project
+    the current :envvar:`VIRTUAL_ENV` environment variable in the sublime
+    project
     file"""
     if update:
         change_project.SetEnvironment().update_debugger_path()
